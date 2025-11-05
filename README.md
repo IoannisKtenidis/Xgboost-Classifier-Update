@@ -1,5 +1,4 @@
-# Multiclass Network Traffic Classification with XGBoost and MLP
-
+🎯 Multiclass Network Traffic Classification with XGBoost and MLP
 This repository contains two implementations for classifying types of network traffic (e.g., Gaming, Streaming, Browsing) using:
 
 XGBoost (with Scikit-learn pipeline and evaluation plots)
@@ -81,4 +80,4 @@ Shell# Run XGBoost classifierpython xgboost_multiclass_classifier.py# Run MLP cl
 
 Scripts are compatible with Google Colab.
 Fonts and plots are optimized for publication (Times New Roman, PDF export).
-The MLP implementation trains multiple seeds and selects the 
+The MLP implementation trains multiple seeds and selects the best-performing model.
